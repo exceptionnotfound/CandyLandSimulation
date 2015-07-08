@@ -13,9 +13,11 @@ namespace CandyLandSimulation.Lib.Models
         public CardDeck()
         {
             CreateDeck();
+            Shuffle();
         }
         private void CreateDeck()
         {
+            Cards = new List<Card>();
             for (int i = 1; i <= 6; i++)
             {
                 if (i <= 1) //Specialty Cards
