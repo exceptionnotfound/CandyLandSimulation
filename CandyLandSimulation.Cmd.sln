@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandyLandSimulation.Cmd", "CandyLandSimulation.Cmd\CandyLandSimulation.Cmd.csproj", "{E90F5041-57B0-485E-A329-1A82F8A0651D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandyLandSimulation.Lib", "CandyLandSimulation.Lib\CandyLandSimulation.Lib.csproj", "{8BC70939-2558-4E6B-8543-F0416BD7057F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E90F5041-57B0-485E-A329-1A82F8A0651D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90F5041-57B0-485E-A329-1A82F8A0651D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90F5041-57B0-485E-A329-1A82F8A0651D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90F5041-57B0-485E-A329-1A82F8A0651D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC70939-2558-4E6B-8543-F0416BD7057F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC70939-2558-4E6B-8543-F0416BD7057F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC70939-2558-4E6B-8543-F0416BD7057F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC70939-2558-4E6B-8543-F0416BD7057F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
