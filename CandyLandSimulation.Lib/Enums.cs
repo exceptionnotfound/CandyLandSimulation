@@ -14,6 +14,7 @@ namespace CandyLandSimulation.Lib
         Green,
         Blue,
         Purple,
+        Cupcake,
         Star,
         IceCream,
         Gingerbread,

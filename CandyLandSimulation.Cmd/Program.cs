@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CandyLandSimulation.Lib.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace CandyLandSimulation.Cmd
     {
         static void Main(string[] args)
         {
+            Board board = new Board();
         }
     }
 }
