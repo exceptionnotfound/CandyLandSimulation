@@ -36,18 +36,12 @@ namespace CandyLandSimulation.Lib.Models
             Spaces.Insert(132, new BoardSpace() { Color = CandyColor.Rainbow });
 
             //Replace the Licorice spaces
-            Spaces.RemoveAt(44);
-            Spaces.Insert(44, new BoardSpace() { Color = CandyColor.Green, IsLicorice = true });
-
-            Spaces.RemoveAt(75);
-            Spaces.Insert(75, new BoardSpace() { Color = CandyColor.Green, IsLicorice = true });
-
             //Replace the Shortcut spaces
-            Spaces.RemoveAt(3);
-            Spaces.Insert(3, new BoardSpace() { Color = CandyColor.Blue, ShortcutDestination = 59 });
+            Spaces[44].IsLicorice = true;
+            Spaces[75].IsLicorice = true;
 
-            Spaces.RemoveAt(28);
-            Spaces.Insert(28, new BoardSpace() { Color = CandyColor.Yellow, ShortcutDestination = 40 });
+            Spaces[3].ShortcutDestination = 59;
+            Spaces[28].ShortcutDestination = 40;
 
             int location = 0;
             foreach(var space in Spaces)
